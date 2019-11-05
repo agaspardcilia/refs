@@ -1,0 +1,45 @@
+entity Civilites {
+    name String
+}
+entity Collectivites {
+    name String
+}
+entity SourceTransmissions {
+    name String
+}
+entity Support {
+    name String
+}
+entity ReclamantTypes {
+    name String
+}
+entity TypeClients {
+    name String
+}
+entity CourtierPartenaireDelegataires {
+    name String
+}
+entity Categories {
+    name String
+}
+entity Motifs {
+    name String
+}
+entity SousMotifs {
+    name String
+}
+entity TypeGaranties {
+    name String
+}
+entity Risques {
+    name String
+}
+entity TypeIndemnisations {
+    name String
+}
+
+// Set service options to all except few
+service all with serviceClass
+dto all with mapstruct
+
+skipClient *
