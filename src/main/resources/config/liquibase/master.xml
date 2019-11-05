@@ -14,6 +14,19 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134800_added_entity_Civilites.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134801_added_entity_Collectivites.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134802_added_entity_SourceTransmissions.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134803_added_entity_Support.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134804_added_entity_ReclamantTypes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134805_added_entity_TypeClients.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134806_added_entity_CourtierPartenaireDelegataires.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134807_added_entity_Categories.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134808_added_entity_Motifs.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134809_added_entity_SousMotifs.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134810_added_entity_TypeGaranties.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134811_added_entity_Risques.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191105134812_added_entity_TypeIndemnisations.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
